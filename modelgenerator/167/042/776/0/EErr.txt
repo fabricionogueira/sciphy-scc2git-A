@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/root/wf-scc2git/bin/clean_modelgenerator.py", line 31, in <module>
+    paramCleanModelgenerator(mg_file)
+  File "/root/wf-scc2git/bin/clean_modelgenerator.py", line 19, in paramCleanModelgenerator
+    mg_info = mg_parameter[1].split(":")                                          # mg_info[1] = modelo e parametros limpos
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/root/wf-scc2git/bin/extractor.py", line 21, in <module>
+    main()    
+  File "/root/wf-scc2git/bin/extractor.py", line 17, in main
+    extractor.extraction()
+  File "/root/wf-scc2git/bin/SciCumulusExtractor.py", line 75, in extraction
+    result = loading(self, self.infile)
+  File "/root/wf-scc2git/bin/PA_Modelgenerator.py", line 10, in validateRaxmlModels
+    arq = open(filename, "r")
+IOError: [Errno 2] No such file or directory: 'ii.mg.modelFromMG.txt'
